@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+from senha import API_KEY
 import openai
 
 app = Flask(__name__)
